@@ -64,7 +64,7 @@ public class CustomerServiceImpl implements CustomerService{
 	@Override
 	public String loadRegister(ModelMap map) {
 		map.put("customer", customer);
-        return "customer-register.html";
+        return "Customer-register.html";
 	}
 
 	@Override
