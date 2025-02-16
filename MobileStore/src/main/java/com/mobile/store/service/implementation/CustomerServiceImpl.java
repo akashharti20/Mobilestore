@@ -80,7 +80,7 @@ public class CustomerServiceImpl implements CustomerService{
 	        }
 
 	        if (result.hasErrors()) {
-	            return "customer-register.html"; 
+	            return "Customer-register.html"; 
 	        }else {
 	            int otp = new Random().nextInt(100000, 1000000);
 	            customer.setOtp(otp);
